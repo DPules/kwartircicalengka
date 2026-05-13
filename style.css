@@ -274,3 +274,158 @@ footer {
     height: 280px;
   }
 }
+
+/* Daftar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-page {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/bg-pramuka.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 80px 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.form-card {
+  background: white;
+
+  padding: 45px;
+
+  border-radius: 30px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.form-card h1 {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 800;
+
+  color: #4e342e;
+}
+
+.form-card p {
+  color: #777;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #4e342e;
+}
+
+.form-control,
+.form-select {
+  padding: 14px;
+
+  border-radius: 15px;
+
+  border: 1px solid #ddd;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+
+  border-color: #8d6e63;
+}
+
+.btn-daftar {
+  background: #5d4037;
+
+  color: white;
+
+  padding: 14px;
+
+  border-radius: 50px;
+
+  font-weight: 600;
+
+  border: none;
+
+  transition: 0.3s;
+}
+
+.btn-daftar:hover {
+  background: #3e2723;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .form-card {
+    padding: 30px;
+  }
+}
+/* PENDAFTARAN */
+
+#pendaftaran {
+  background: #f8f5f2;
+}
+
+.daftar-card {
+  background: white;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  transition: 0.4s;
+}
+
+.daftar-card:hover {
+  transform: translateY(-10px);
+}
+
+.daftar-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.daftar-content {
+  padding: 25px;
+  text-align: center;
+}
+
+.daftar-content h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #4e342e;
+}
+
+.daftar-content p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-daftar {
+  background: #5d4037;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-daftar:hover {
+  background: #3e2723;
+  color: white;
+}
